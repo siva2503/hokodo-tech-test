@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Debug Hokodo Payments test",
+      "timeout": 60000,
+      "program": "${workspaceFolder}/exercise-2-frontend-app/app-automation-tests/node_modules/.bin/wdio",
+      "args": [
+        "${workspaceFolder}/exercise-2-frontend-app/app-automation-tests/wdio.conf.ts"
+      ],
+      "cwd": "${workspaceFolder}/exercise-2-frontend-app/app-automation-tests",
+      "console": "integratedTerminal",
+      "autoAttachChildProcesses": true,
+      "skipFiles": [
+        "${workspaceFolder}/exercise-2-frontend-app/app-automation-tests/node_modules/**/*.js",
+        "${workspaceFolder}/exercise-2-frontend-app/app-automation-tests/lib/**/*.js",
+        "<node_internals>/**/*.js"
+      ]
+    }
+  ]
+}

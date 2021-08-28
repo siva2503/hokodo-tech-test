@@ -1,0 +1,196 @@
+{
+  "id": "order-YDPn5AHx3g5tkSXpHPqbnS",
+  "unique_id": "020f0f10-04f6-11ec-bdd2-e91d23438ac2",
+  "po_number": "",
+  "customer": {
+    "organisation": {
+      "id": "org-kgAp5azWD3KQKAYfoMLQSF",
+      "unique_id": "71e0873a-af62-4484-a1d1-4b08955ced80",
+      "registered": "2018-07-01T12:12:12Z",
+      "company": {
+        "id": "co-gX3zhkzYm9SzjgFoAdHvyV",
+        "name": "Buyer Ltd"
+      },
+      "users": [
+        "2577a76d-d2bd-4bc1-bd6b-ca64d8e335c1"
+      ]
+    },
+    "user": {
+      "id": "user-4EDkqjGXKXPPAHnPswN98h",
+      "email": "sami+bnpl.customer.boxtelesales.2021-08-24T1811@hokodo.co",
+      "unique_id": "",
+      "name": "BNPL Customer 2021-08-24T1811",
+      "phone": "+44123456789",
+      "registered": "2018-07-01T12:12:12Z",
+      "type": "registered"
+    },
+    "invoice_address": {
+      "name": "Bob Accounting",
+      "company_name": "",
+      "address_line1": "1 Main Street",
+      "address_line2": "65th floor",
+      "address_line3": "",
+      "city": "London",
+      "region": "",
+      "postcode": "SE11 6NQ",
+      "country": "GB",
+      "phone": "",
+      "email": ""
+    },
+    "delivery_address": {
+      "name": "John Smith",
+      "company_name": "",
+      "address_line1": "1 Station Street b",
+      "address_line2": "Flat B",
+      "address_line3": "<script>alert();</script>",
+      "city": "London",
+      "region": "",
+      "postcode": "SE11 6NQ",
+      "country": "GB",
+      "phone": "",
+      "email": ""
+    },
+    "billing_address": null
+  },
+  "created": "2021-08-24T15:12:15.344836Z",
+  "currency": "EUR",
+  "order_date": "2021-08-24",
+  "invoice_date": null,
+  "due_date": null,
+  "paid_date": null,
+  "total_amount": 11000,
+  "tax_amount": 1867,
+  "metadata": {
+    "checkout_id": "02102080-04f6-11ec-bdd2-e91d23438ac2",
+    "customer_id": "2055b445-3d95-4d2f-bd80-3e336217905f"
+  },
+  "items": [
+    {
+      "item_id": "1",
+      "type": "product",
+      "description": "Super ergonomic chair",
+      "metadata": {
+        "name": "Karmus",
+        "color": "black",
+        "variant": "M"
+      },
+      "reference": "702.611.50",
+      "category": "Furniture > Chairs",
+      "supplier_id": "7363",
+      "supplier_name": "",
+      "quantity": "10.000",
+      "unit_price": 1000,
+      "total_amount": 10000,
+      "tax_amount": 1667,
+      "tax_rate": "20.00",
+      "fulfilled_quantity": "0",
+      "fulfillment_info": [],
+      "cancelled_quantity": "0",
+      "cancelled_info": [],
+      "returned_quantity": "0",
+      "returned_info": []
+    },
+    {
+      "item_id": "3",
+      "type": "product",
+      "description": "This is free!",
+      "metadata": null,
+      "reference": "",
+      "category": "",
+      "supplier_id": "",
+      "supplier_name": "",
+      "quantity": "1.000",
+      "unit_price": 0,
+      "total_amount": 0,
+      "tax_amount": 0,
+      "tax_rate": "25.00",
+      "fulfilled_quantity": "0",
+      "fulfillment_info": [],
+      "cancelled_quantity": "0",
+      "cancelled_info": [],
+      "returned_quantity": "0",
+      "returned_info": []
+    },
+    {
+      "item_id": "2",
+      "type": "shipping",
+      "description": "Delivery fee",
+      "metadata": null,
+      "reference": "",
+      "category": "",
+      "supplier_id": "",
+      "supplier_name": "",
+      "quantity": "1.000",
+      "unit_price": 1000,
+      "total_amount": 1000,
+      "tax_amount": 200,
+      "tax_rate": "25.00",
+      "fulfilled_quantity": "0",
+      "fulfillment_info": [],
+      "cancelled_quantity": "0",
+      "cancelled_info": [],
+      "returned_quantity": "0",
+      "returned_info": []
+    }
+  ],
+  "payment_offer": {
+    "url": "https://api-sandbox.hokodo.co/v1/payment/offers/offr-G9r9Dq7bDZHgqx5DnS3R7S",
+    "id": "offr-G9r9Dq7bDZHgqx5DnS3R7S",
+    "order": "order-YDPn5AHx3g5tkSXpHPqbnS",
+    "offered_payment_plans": [
+      {
+        "id": "ppln-VgQKuDGSqYbEEY6i9YBKrA",
+        "name": "55d",
+        "template": "pptemp-H5SMNDpBpVtT7ZYqAPDntf",
+        "currency": "EUR",
+        "scheduled_payments": [
+          {
+            "date": "2021-10-18",
+            "amount": 11000,
+            "allowed_payment_methods": [
+              {
+                "type": "direct_debit"
+              },
+              {
+                "type": "invoice"
+              },
+              {
+                "type": "card"
+              }
+            ]
+          }
+        ],
+        "merchant_fee": {
+          "currency": "EUR",
+          "amount": 220
+        },
+        "customer_fee": {
+          "currency": "EUR",
+          "amount": 0
+        },
+        "valid_until": "2021-09-14T15:12:18.329Z",
+        "payment_url": "https://pay-sandbox.hokodo.co/?design=default&order=order-YDPn5AHx3g5tkSXpHPqbnS&plan=ppln-VgQKuDGSqYbEEY6i9YBKrA&key=gotoYsfWiHYZyoYAMX_iY0gS9kpSSOF7hIRnb8tjH9s&template=pptemp-H5SMNDpBpVtT7ZYqAPDntf",
+        "status": "offered",
+        "rejection_reason": null
+      }
+    ],
+    "legals": {
+      "type": "b",
+      "terms_url": "https://static.hokodo.co/payments/a_v1.0/a_v1.0_gb.pdf"
+    },
+    "urls": {
+      "success": "https://hokodo.co/payment/ok",
+      "failure": "https://hokodo.co/checkout",
+      "cancel": "https://hokodo.co/checkout",
+      "notification": "",
+      "merchant_terms": "https://hokodo.co/terms"
+    },
+    "locale": "en-gb",
+    "metadata": {
+      "customer_key": "jlskqdfsqdjf"
+    }
+  },
+  "status": "unpaid",
+  "pay_method": "unknown",
+  "deferred_payment": null
+}
