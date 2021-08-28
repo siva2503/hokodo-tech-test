@@ -1,6 +1,8 @@
 # Tech Task Solutions
 
-## Exercise 1 - [HOKODO Quotes REST API Tests](exercise-1-REST-api/README.md)
+## Exercise 1 - HOKODO Quotes REST API Tests
+### 1.1 [API Tests](exercise-1-REST-api/README.md)
+
 
 ## Exercise 2 - Payment application
 
