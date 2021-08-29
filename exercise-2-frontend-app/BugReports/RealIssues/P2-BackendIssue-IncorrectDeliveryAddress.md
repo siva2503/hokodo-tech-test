@@ -28,6 +28,11 @@ note: On a scale of 1 - 3, with 1 being top priority, it is currently given as 2
 
 URL: https://pay-sandbox.hokodo.co/?design=default&order=order-YDPn5AHx3g5tkSXpHPqbnS&plan=ppln-VgQKuDGSqYbEEY6i9YBKrA&key=gotoYsfWiHYZyoYAMX_iY0gS9kpSSOF7hIRnb8tjH9s&template=pptemp-H5SMNDpBpVtT7ZYqAPDntf
 
+### Test Evidence
+
+<img width="1588" alt="Screenshot 2021-08-28 at 22 07 57" src="https://user-images.githubusercontent.com/13304448/131234936-b2e93614-e340-4fd7-943a-228bf9519f9a.png">
+
+
 ### Rootcause Analysis
 
 The "orders" endpoint returns response with invalid address detail in `address_line3` attribute of `delivery_address` object (_customer["delivery_address"]["address_line3"]_)
