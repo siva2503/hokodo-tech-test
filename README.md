@@ -1,5 +1,7 @@
 # Tech Task Solutions
 
+Please navigate to each of the below sections to find more about the solutions.
+
 ## Exercise 1 - HOKODO Quotes REST API Tests
 ### 1.1 [API Tests](exercise-1-REST-api)
 
