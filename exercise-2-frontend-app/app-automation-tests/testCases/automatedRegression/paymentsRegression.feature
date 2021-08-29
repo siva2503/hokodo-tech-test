@@ -1,3 +1,5 @@
+# AUTOMATED Tests
+
 Feature: Validate functionalities of HOKODO payments page 
 
   Scenario Outline: Test all possible payment options available in HOKODO payments page
@@ -25,5 +27,5 @@ Feature: Validate functionalities of HOKODO payments page
     And I see the all required sections displayed
     When I choose "invoice" option as my payment method
     And fill in details if required for the chosen "invoice" option
-    # And submit payment method
-    # Then the payment should be successful
+    And submit payment method
+    Then the payment should be successful
