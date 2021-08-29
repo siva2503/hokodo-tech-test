@@ -64,6 +64,7 @@ Steps to debug:
 [Allure](https://docs.qameta.io/allure/) is implemented with this project for reporting purposes. Allure Framework is a flexible lightweight multi-language test report tool that shows a very concise representation of what have been tested in a neat web report form.
 
 A sample report below,
+![allurereport](https://user-images.githubusercontent.com/13304448/131235002-124d2a1d-ef7a-4416-b537-9348e51fcbb4.gif)
 
 
 
