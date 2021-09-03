@@ -26,6 +26,7 @@
     "chromedriver": "^92.0.1",
     "dotenv": "^10.0.0",
     "eslint": "^7.32.0",
+    "husky": "^7.0.2",
     "prettier": "^2.3.2",
     "selenium-standalone": "^7.1.0",
     "ts-node": "^10.2.1",
